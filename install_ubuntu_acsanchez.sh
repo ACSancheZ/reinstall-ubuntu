@@ -34,4 +34,11 @@ git clone https://github.com/friday/ulauncher-hash2.git
 git clone https://github.com/NastuzziSamy/ulauncher-translate.git
 
 #Dev tools
-npm install -g react-scripts
+mkdir ~/Workspace
+mkdir ~/Workspace/_basu
+sudo chmod -R 777 /usr/local/lib/node_modules
+sudo chown -R $(whoami):$(whoami) /usr/local/lib/node_modules
+sudo npm install -g react-scripts
+sudo npm install -g react
+
+#Config Tilix
