@@ -21,7 +21,7 @@ sudo snap install spotify
 
 
 #Download
-wget -C -P /tmp https://github.com/Ulauncher/Ulauncher/releases/download/5.8.1/ulauncher_5.8.1_all.deb && sudo apt install ./tmp/packagename.deb
+wget -C -P /tmp https://github.com/Ulauncher/Ulauncher/releases/download/5.8.1/ulauncher_5.8.1_all.deb
 
 #ULauncher
 cd ~/.local/share/ulauncher/extensions/
@@ -43,3 +43,8 @@ sudo npm install -g react-scripts
 sudo npm install -g react
 
 #Config Tilix
+cat .config/tilix/bashrc.txt >> ~/.bashrc
+ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
+cat vte-sh.txt >> /etc/profile.d/vte-2.91.sh 
+mkdir ~/.config/tilix/schemes
+mv .config/tilix/schemes/aacsanchez.json ~/.config/tilix/schemes
