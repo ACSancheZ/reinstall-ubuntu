@@ -21,7 +21,8 @@ sudo snap install spotify
 
 
 #Download
-wget -C -P /tmp https://github.com/Ulauncher/Ulauncher/releases/download/5.8.1/ulauncher_5.8.1_all.deb
+sudo add-apt-repository ppa:agornostal/ulauncher
+sudo apt install ulauncher -y
 
 #ULauncher
 cd ~/.local/share/ulauncher/extensions/
