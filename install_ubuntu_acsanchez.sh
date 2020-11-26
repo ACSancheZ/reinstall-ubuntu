@@ -1,11 +1,13 @@
 #Install apt
 sudo apt install tilix
-#sudo apt install python3
 sudo apt install python3-pip
 sudo apt install git
 sudo apt install vim
 sudo apt install gnome-shell-extensions
 sudo apt install chrome-gnome-shell
+sudo apt install nodejs
+sudo apt install npm
+
 
 #Install snap
 sudo snap install beekeeper-studio
@@ -31,4 +33,5 @@ git clone https://github.com/iboyperson/ulauncher-system.git
 git clone https://github.com/friday/ulauncher-hash2.git
 git clone https://github.com/NastuzziSamy/ulauncher-translate.git
 
-
+#Dev tools
+npm install -g react-scripts
