@@ -48,3 +48,4 @@ ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 cat vte-sh.txt >> /etc/profile.d/vte-2.91.sh 
 mkdir ~/.config/tilix/schemes
 mv .config/tilix/schemes/aacsanchez.json ~/.config/tilix/schemes
+wget -P ~/.config/tilix/schemes https://github.com/storm119/Tilix-Themes/blob/master/Themes-2/teerb.json
