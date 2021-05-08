@@ -7,7 +7,8 @@ sudo apt install gnome-shell-extensions
 sudo apt install chrome-gnome-shell
 sudo apt install nodejs
 sudo apt install npm
-sudo apt install pdfsam 
+sudo apt install pdfsam
+sudo apt install btrfs-progs -y
 
 
 #Install snap
